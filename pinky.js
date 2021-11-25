@@ -1,4 +1,4 @@
-/* codded by afnanplk
+/* cod DI PASAR
 */
 
 const { Sequelize } = require('sequelize');
@@ -12,6 +12,6 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
  PLKAFN: process.env.BAD_WORDS === undefined ? false : process.env.BAD_WORDS,
- PHONE: process.env.NUMBER === undefined ? '+918301985859' : process.env.NUMBER,   
- OA_NAME: process.env.DEPLOYER === undefined ? 'Someone' : process.env.DEPLOYER,    
+ PHONE: process.env.NUMBER === undefined ? '+6283805279906' : process.env.NUMBER,   
+ OA_NAME: process.env.DEPLOYER === undefined ? 'ISML' : process.env.DEPLOYER,    
 };
